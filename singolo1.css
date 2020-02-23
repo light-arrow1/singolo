@@ -87,45 +87,54 @@ font-family: "LatoLight";
 margin-left: 2.2em;
 margin-right: 0.7em;
 letter-spacing: -0.04px;
-margin-bottom: 51px;
-}
-.container-service {
-    display: flex; 
-    flex-wrap: wrap;
-   
 }
 .service_main {
-    margin-left: 43px;
-}
-.service_pazl {
-    width: 300px;
-    display: inline-block;
+    margin-left: 31px;
+    margin-top: 3.1em;
+    margin-right: 1px;
     
 }
+.container_service {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.service_pazl {
+    width: 32.4%;
+    display: inline-block;
+    /*margin: 0 0.4em;*/
+    margin-bottom: 2.5em;
+    
+    }
 .service_pazl h4 {
 font-size: 18px;
 line-height: 18px;
 color: #666d89;
 font-family: "LatoBlack";
+margin-bottom: 8px;
 }
 .service_pazl p {
-    
-    height: 128px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
     font-family: "LatoMedium";
     margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
 }
 .icon {
-    display: inline-block;
-    border: 2px solid #7c8299;
+    display: block;
+    float: left;
+    border: 1px solid #7c8299;
     width: 32px;
     height: 32px;
-    padding: 10px;
+    padding: 12px;
     border-radius: 100%;
-    background: url(assets/icon_pan.png) center no-repeat ;
-    float: left;
+    background: url(assets/icon_pan.png) center no-repeat;
+    margin: 0 20px 20px 10px;
 }
 .i_bulb {
     background-image: url(assets/icon_bulb.png);
@@ -134,7 +143,7 @@ font-family: "LatoBlack";
     background-image: url(assets/icon_heart.png);
 }
 .i_phone {
-    background-image: url(assets/icon_phone.png;
+    background-image: url(assets/icon_phone.png);
 }
 .i_bubbl {
     background-image: url(assets/icon_bubble.png);
