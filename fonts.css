@@ -20,7 +20,7 @@
    }
   /*--grid---*/
   body {
-    font: 100%/1.5em Verdana, sans-serif;
+    font-size: 100%;
   }
   * {
     margin: 0;
