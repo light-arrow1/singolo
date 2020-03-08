@@ -168,9 +168,9 @@ a, i, div, section, h2, h4, h3, p, span{
  .twitter{
     background-image: url(assets/icon_twitter.png);
 }
-.instagram {
-    background-image: url(assets/icon_instagram.png);
+.linkedIn {
+    background-image: url(assets/icon_linkedIn.png);
 }
-.facebook:hover, .google:hover, .twitter:hover , .instagram:hover{
+.facebook:hover, .google:hover, .twitter:hover , .linkedIn:hover{
     background-position: 0 0px;
  }
