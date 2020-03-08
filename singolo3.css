@@ -35,8 +35,7 @@ a, i, div, section, h2, h4, h3, p, span{
 }
 .get_a_quote form {
     margin: 1.6rem 3.9px;
-    position: relative;
-    
+    position: relative; 
 }
 .container .cols .col_8_in_12 {
     padding-left: 0.37em;

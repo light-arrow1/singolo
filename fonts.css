@@ -1,23 +1,3 @@
-@font-face {
-    font-family: "LatoBold"; 
-    src: url(assets/Lato-Bold.ttf); 
-    font-weight: 700;
-   }
-@font-face {
-    font-family: "LatoBlack"; 
-    src: url(assets/Lato-Black.ttf); 
-    font-weight: 900;
-   }
-   @font-face {
-    font-family: "LatoLight"; 
-    src: url(assets/Lato-Light.ttf); 
-    font-weight: 300;
-   }
-   @font-face {
-    font-family: "LatoMedium"; 
-    src: url(assets/Lato-Medium.ttf);
-    font-weight: 400;
-   }
  @font-face {
     font-family: "Lato"; 
     src: url(assets/Lato-Bold.ttf); 
@@ -38,8 +18,7 @@
     src: url(assets/Lato-Medium.ttf);
     font-weight: 400;
    }
-  
-
+  /*--grid---*/
   * {
     margin: 0;
     padding: 0;
@@ -49,64 +28,51 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
   .container {
-    width: 100%;
     margin: 0 auto;
     -moz-width: 100%;
-    -moz-margin: 0 auto;
     -webkit-width: 100%;
-    -webkit-margin: 0 auto;
+    width: 100%;
   }
   .container .cols {
-    float: left;
     margin: 0 0 0.7em;
     padding: 0 0.4em;
     text-align: center;
     -moz-float: left;
-    -moz-margin: 0 0 0.7em;
-    -moz-padding: 0 0.4em;
-    -moz-text-align: center;
     -webkit-float: left;
-    -webkit-margin: 0 0 0.7em;
-    -webkit-padding: 0 0.4em;
-    -webkit-text-align: center;
-  }
+    float: left;
+  }  
  .container .cols.col_1_in_4 {
-     width: 25%;
      -moz-width: 25%;
      -webkit-width: 25%;
+     width: 25%;
  }
  .container .cols.col_1_in_3, .container .col_4_in_12 {
-     width: 33.333333333%;
      -moz-width: 33.333333333%;
      -webkit-width: 33.333333333%;
+     width: 33.333333333%;
  }
  .container .col_8_in_12 {
-     width: 66.666666667%;
      -moz-width: 66.666666667%;
      -webkit-width: 66.666666667%;
+     width: 66.666666667%;
  }
   .container::before, .container::after, .row::before, .row::after, .clear::before, .clear::after {
-   content: " ";
-   display: table;
    -moz-content: " ";
    -moz-display: table;
    -webkit-content: " ";
    -webkit-display: table;
+   content: " ";
+   display: table;
  }
  .container::after,
  .row::after,
  .clear::after {
-   clear: both;
    -moz-clear: both;
    -webkit-clear: both;
+   clear: both;
  }
 .row {
    margin-left: -10px;
    margin-right: -10px; 
-   -moz-margin-left: -10px;
-   -moz-margin-right: -10px; 
-   -webkit-margin-left: -10px;
-   -webkit-margin-right: -10px; 
 }
