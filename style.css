@@ -293,9 +293,7 @@ a.disabled {
     .about_us_personal p, .about_us_personal h4{
         text-align: left;
     }
-    .about_us_personal h4 {
-        color: #666d89;
-    }
+   
     .about_us_personal h4 {
         font-size: 1.82rem;
         font-family: "Lato", Verdana, sans-serif;
@@ -303,6 +301,9 @@ a.disabled {
         margin-top: 0.23rem;
         letter-spacing: 0.005rem;
         padding-left: 2px;
+        overflow: hidden;
+        max-height: 3rem;
+        word-break: break-all;
     }
     .about_us_personal p {
         font-size: 1.2rem;
