@@ -169,7 +169,7 @@
   .service_pazl p {
       margin-right: 1rem;
       font-size: 12px;
-      line-height: 2.2rem;
+      line-height: 2.1rem;
       font-weight: 400;
       -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; /* пока поддерживает только Firefox */ 
       text-align: justify;
