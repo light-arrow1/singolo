@@ -472,6 +472,7 @@
          padding: 1rem 1.8rem;
          border-radius: 5px;
          border:1px solid #ff8488;
+         font-family: "Lato", Verdana, sans-serif;
      }
      .button:hover, .button:focus, .button:active {
          background-color: #fd7c83;
