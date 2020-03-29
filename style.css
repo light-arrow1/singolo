@@ -680,21 +680,25 @@ li:last-child::after {
            
         }
         .main_fotos {
-            margin-right: 52px;
+            
         }
         .container_foto {
-            align-items: flex-start;
-            justify-content: start;
+            align-items: baseline;
+            margin-left: -0.14em;
+            width: 690px;
         }
-        .foto_pazl {
-            width: 33%;
+        .container_foto .foto_pazl {
+            max-width: 32%;
             display: inline-block;
-            margin-bottom: 0.72em; 
+            margin-bottom: 0.55em; 
             text-align: center;
-            margin-right: 4.3px;
+            
              }
              .foto_pazl>img {
-               width: 214px;   
-               height: 185px;     
+               width: 217px;   
+               height: 186px;     
                 }
+            .portfolio_main {
+                padding-bottom: 50px;
+            }
 }
