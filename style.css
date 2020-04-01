@@ -523,13 +523,14 @@ li:last-child::after {
          background-position: 0 87%;
      }
      .button {
-         position: absolute;
-         top: 80%;
-         left: 107%;
-         background-color: #f87169;
-         color:#f0d8d9;
-         text-transform: uppercase;
-         padding: 1rem 1.8rem;
+        position: static;
+        float: left;
+        background-color: #fac35f;
+        color: #8a6d2d;
+        padding: 1rem 4.9rem;
+        margin: 2px 0px;
+        letter-spacing: -0.14rem;
+        text-transform: uppercase;
          border-radius: 5px;
          border:1px solid #ff8488;
          font-family: "Lato", Verdana, sans-serif;
