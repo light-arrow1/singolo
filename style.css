@@ -866,5 +866,192 @@ li:last-child::after {
         margin-right: 0px;
         margin-top: -123px;
      }
+     .main h2 {
+        font-size: 3.14rem;
+        padding: 1.07em 1.02em 2.7rem;
+        letter-spacing: -0.8px;
+     }
+     .main p {
+        margin-left: 1.8em;
+        height: 210px;
+     }
+     .service_main {
+        margin-left: 2.23rem;
+        margin-top: 2.6rem;
+     }
+     .service_pazl {
+         width: 100%;
+         margin-bottom: 0.56rem;
+     }
+     .service_pazl h4 {
+        letter-spacing: 0.03px;
+        line-height: 2.2rem;
+
+     }
+     .service_pazl p {
+        line-height: 2.2rem;
+        margin-right: 4.3rem;
+        letter-spacing: 0.008rem;
+        height: 82px;
+     }
+     .wrap_main {
+        height: 1032px;
+     }
+     .service_pazl .icon {
+         margin-top: 3px;
+     }
+     .portfolio_main, .about_us_main{
+         border: none;
+     }
+     .portfolio_main {
+        padding: 44px 30px 47px;
+     }
+     .portfolio h2 {
+        line-height: 1.7rem;
+        padding-left: 1px;
+        letter-spacing: 0;
+     }
+     .portfolio p {
+         padding-left: 0;
+         margin-bottom: 0.9rem;
+         letter-spacing: 0.05rem;
+     }
+     .tag {
+        letter-spacing: 0.017rem;
+     }
+     .portfolio_tags .tag:first-child {
+         margin-left: 0px;
+     }
+     .foto_pazl {
+         max-width: 50%;
+         margin-bottom: 0.47rem;
+         padding-right: 2px;
+     }
+     .foto_pazl:nth-child(2n) {
+         padding-left: 2px;
+     }
+     .foto_pazl img {
+         max-width: 93.7%;
+     }
+     .portfolio_tags {
+        margin-bottom: 23px;
+     }
+     .container_foto {
+        margin-left: -5px;
+        margin-right: -6px;
+        max-height: 548px;
+        overflow: hidden;
+     }
+     .about_us_main {
+        padding: 34px 30px 11px;
+     }
+     .about_us h2 {
+         margin-left: 0;
+         letter-spacing: 0;
+     }
+     .about_us p {
+         padding-left: 0;
+         letter-spacing: 0.06rem;
+         margin-bottom: 2.3rem;
+     }
+     .about_personal_pazl {
+         max-width: 100%;
+         margin-bottom: 3.4rem;
+     }
+     .about_us_personal img {
+        width: 94.3%;
+        padding-right: 1px;
+     }
+     .about_us_personal h4 {
+        margin-top: 0.4rem;
+        letter-spacing: -0.01rem;
+        margin-left: 6px;
+        padding-left: 3px;
+     }
+     p.about_us_info {
+        padding-left: 4px;
+        letter-spacing: 0.015rem;
+        margin-top: -3px;
+        margin-bottom: 1.16rem;
+     }
+     div.about_us_social {
+        margin-left: 5px;
+    }
+    .get_a_quote_main {
+        border: none;
+        padding: 53px 30px 40px 30px;
+    }
+    .get_a_quote h2 {
+        letter-spacing: 0;
+        font-style: 3rem;
+    }
+    .get_a_quote p {
+        padding-right: 1rem;
+        letter-spacing: 0.02rem;
+        padding-bottom: 0.7rem;
+    }
+    div.get_a_quote_pazl:first-child {
+        min-width: 100%;
+    }
+    .get_a_quote .inputs {
+        width: 315px;
+        margin-bottom: 12px;
+        padding: 0.8rem 0.7rem;
+        letter-spacing: -0.076rem;
+        line-height: 2.6rem;
+        padding: 0.65rem 0.7rem 0.55rem;
+    }
+    .get_a_quote textarea.inputs {
+        padding-left: 0.75rem;
+        padding-top: 3px;
+        letter-spacing: -0.173rem;
+        height: 159px;
+    }
+    .get_a_quote_pazl {
+        min-width: 100%;
+    }
+    .get_a_quote_main .contact_info {
+        margin: 6.96rem 0 0.1rem;
+        padding-left: 0.13rem;
+    }
+    .contact_info h4 {
+        padding-bottom: 0.2rem;
+        letter-spacing: 0.45px;
+        font-size: 1.7rem;
+    }
+    .contact_info p {
+        padding-right: 0;
+        margin-bottom: 0.4rem;
+    }
+    .get_a_quote_contacts a {
+        line-height: 2.38rem;
+    }
+    .icon_form {
+        margin-left: -0.09rem;
+        margin-right: 0.9rem;
+        margin-top: 5.9px;
+    }
+    .button {
+        left: 0;
+        top: 104.24%;
+        background-color: #fac35f;
+        color: #8a6d2d;
+        padding: 1.51rem 13.96rem;
+        margin: 0px 0px;
+        letter-spacing: -0.18rem;
+        margin-left: -0.5px;
+
+    }
+    .footer_main p {
+        display: none;
+    }
+    .cont_social_footer {
+        float: none;
+        margin-right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 178px;
+        padding-right: 18px;
+        }
 
 }
